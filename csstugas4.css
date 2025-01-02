@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('https://png.pngtree.com/thumb_back/fw800/background/20230819/pngtree-abstract-vector-blue-background-with-yellow-lines-free-wallpaper-image_13093900.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.login-container {
+    /* margin: 0 auto; */
+    width: 500px;
+    background-color: white;
+    padding: 70px 10px;
+
+}
+
+.Judul h1 {
+    color: blueviolet;
+    border-bottom: 5px solid blueviolet;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.inputContainer {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.inputContainer input{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid blueviolet;
+}
+
+.btnContainer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.btnContainer button {
+    padding: 10px 80px;
+    background-color: blueviolet;
+    color:  white;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.btnContainer button:hover{
+    cursor: pointer;
+    background-color: purple;
+
+}

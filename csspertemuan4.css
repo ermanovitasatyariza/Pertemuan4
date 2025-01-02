@@ -1,0 +1,14 @@
+.texth {
+    color: blueviolet;
+}
+
+.textp {
+    color: blue;
+}
+
+body{
+    margin: 25px;
+    background-color: aquamarine;
+    border: 50px;
+    padding: 100px;
+}
